@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Meu Portfólio - Isabelly Nascimento</title>
+  <link rel="stylesheet" href="css/estilo.css" />
+</head>
+<body>
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">Isabelly Nascimento</h1>
+
+      <!-- botao hamburger para mobile -->
+      <button id="themeToggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menu">
+        ☰
+      </button>
+
+      <nav id="mainNav" class="main-nav" role="navigation">
+        <a href="#sobre">Sobre</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- SOBRE -->
+    <section id="sobre" class="section container">
+      <h2>Sobre mim</h2>
+      <img src="assets/img/FOTO DE PERFIL ATUAL.jpg" alt="Foto de Isabelly" class="foto-perfil">
+      <p>Sou Isabelly Nascimento, estudante de Engenharia de Software. Tenho experiência com HTML, CSS, JavaScript e estou iniciando projetos como desenvolvedora front-end. Gosto de criar interfaces limpas e funcionais, além de aprender novas tecnologias para evoluir como full stack.</p>
+    </section>
+
+    <!-- FORMAÇÂO -->
+    <section id="formacao" class="section container">
+      <h2>Formação</h2>
+      <ul>
+        <li>Ensino Médio Completo — Escola Estadual 7 de Novembro (2023)</li>
+        <li>Engenharia de Software — Uninter (2024–2028)</li>
+        <li>Cursos: HTML, CSS, JavaScript, SQL, Python, Segurança cibernética.</li>
+      </ul>
+    </section>
+
+    <!-- PORTFÓLIO -->
+    <section id="portfolio" class="section container">
+      <h2>Portfólio</h2>
+      <div class="grid-projects">
+        <article class="project-card">
+          <img src="assets/img/2024-08-22.png" alt="Projeto 1">
+          <h3>Site de relógio Completo</h3>
+          <p>Relógio analógico e digital, data, dia da semana, alarme, temporizador, cronômetro, horários em diferentes cidades e uma seção para eventos. Feito com HTML, CSS e JavaScript.</p>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/img/Captura de Tela (1).png" alt="Projeto 2">
+          <h3>Simulador de orçamento pessoal</h3>
+          <p>Um site de simulador de orçamento pessoal serve para ajudar os usuários a organizar e planejar suas finanças de forma digital e interativa, visualizando sua situação financeira e permitindo simulações de cenários futuros. Feito de HTML, CSS e JavaScript</p>
+        </article>
+        <article class="project-card">
+          <img src="assets/img/Captura de Tela (2).png" alt="Projeto 3">
+          <h3>Site de Previsão do Tempo</h3>
+          <p>Um site de previsão do tempo coleta dados meteorológicos, processa-os com tecnologia avançada e os exibe em uma interface web simples e interativa para informar o usuário. Feito com HTML, CSS, JavaScript e APIs.</p>
+        </article>
+        <article class="project-card">
+          <img src="assets/img/Captura de Tela (4).png" alt="Projeto 4">
+          <h3>Aplicativo Mobile</h3>
+          <p>Aplicativo Mobile Simulado
+Projeto em HTML, CSS e JavaScript que reproduz a interface de um app para celular com menu inicial, barra de navegação e botões de acesso a funcionalidades como Música, Mensagens, Câmera, Pesquisa e Social.</p>
+        </article>
+        <article class="project-card">
+          <img src="assets/img/Captura de Tela (7).png" alt="Projeto 5">
+          <h3>Site/APP de Resumo de livros</h3>
+          <p>Um aplicativo de resumos de livros permite que usuários cadastrados criem e organizem anotações sobre suas leituras. Usa tecnologias web: HTML, CSS, JavaScript e  banco de dados, para gerenciar o acesso (login) e armazenar os resumos de forma centralizada</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section container">
+      <p>Preencha o formulário abaixo para falar comigo. Responderei assim que possível.</p>
+      <h2>Contato</h2>
+      <form id="contatoForm" novalidate>
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" required />
+          <span class="error" id="err-nome" aria-live="polite"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" required />
+          <span class="error" id="err-email" aria-live="polite"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+          <span class="error" id="err-mensagem" aria-live="polite"></span>
+        </div>
+
+        <button id="btnEnviar" type="submit">Enviar</button>
+        <p id="status" class="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="ano"></span> Isabelly Nascimento — Portifólio</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

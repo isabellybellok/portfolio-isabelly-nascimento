@@ -1,0 +1,29 @@
+# 🌐 Portfólio Web – Isabelly Nascimento
+
+Projeto desenvolvido como atividade prática da disciplina **Desenvolvimento Web** (UNINTER).
+
+## 🧠 Sobre o projeto
+Este site foi criado para apresentar meu perfil, formação acadêmica, portfólio de projetos e formulário de contato.  
+O layout é **moderno, responsivo e inclui modo claro/escuro**, além de validação de formulário em JavaScript.
+
+## 🛠️ Tecnologias utilizadas
+- **HTML5**
+- **CSS3 (Flexbox e Grid)**
+- **JavaScript (DOM, validação e localStorage)**
+
+## 🚀 Funcionalidades
+- Tema claro/escuro
+- Menu responsivo
+- Validação de formulário
+- Exibição dinâmica do ano no rodapé
+- Design adaptável a todas as telas
+
+## 🖥️ Publicação
+O projeto está disponível online via **GitHub Pages**:
+
+🔗 [Acesse aqui o site publicado](https://isabellybellok.github.io/portfolio-isabelly-nascimento)
+
+## 👩‍💻 Autora
+**Isabelly Nascimento**  
+Estudante de Engenharia de Software – UNINTER  
+📧 E-mail: isabellybellok@gmail.com
